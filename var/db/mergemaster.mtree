@@ -1,0 +1,606 @@
+#	   user: kris
+#	machine: devastator
+#	   tree: /var/tmp/temproot
+#	   date: Wed Aug 12 16:58:02 2015
+
+# .
+/set type=file
+.               type=dir
+    .cshrc      size=898 md5digest=6ce16bbe8b659552a807e6db8d0454db
+    .profile    size=188 md5digest=4cde7c2476c25183a052c7ab0d9b4352
+    COPYRIGHT   size=6142 md5digest=9de11f57e79b57ddc8be0725632ad980
+    sys         type=link
+
+# ./boot
+boot            type=dir
+    device.hints \
+                size=775 md5digest=c4e6f8bd4bd77445f1a9cbf6934fe2cc
+# ./boot
+..
+
+
+# ./etc
+etc             type=dir
+    aliases     type=link
+    amd.map     size=154 md5digest=082b55fec5c299c6672735ca1f3af80f
+    apmd.conf   size=1180 md5digest=67abd91dbdc27f94736390de73f7138f
+    auto_master size=282 md5digest=2dd403a4eea24cb9b68642f9fa83743f
+    crontab     size=670 md5digest=e7d5a881575dadde1e1c4d30e3530792
+    csh.cshrc   size=397 md5digest=8719fa4d3990179705ebb5f0b623e30f
+    csh.login   size=422 md5digest=2608b488cd7fb7f589de8fd2d12763b6
+    csh.logout  size=53 md5digest=f04e23117c7e4d6efb8b8b897efe372a
+    ddb.conf    size=505 md5digest=45c681a8dd33c5778837aad52cea1389
+    devd.conf   size=9633 md5digest=5cc578610c3129775e25c9b795cf2651
+    devfs.conf  size=1930 md5digest=d8a21e59a96525f106ab750d5938af40
+    dhclient.conf \
+                size=205 md5digest=c930b276ff58423fb8716c43f39d9f28
+    disktab     size=5841 md5digest=dc14ab359ff9db833d064095e4b064f8
+    fbtab       size=90 md5digest=f7293d7e2147b78fa49692c14902407a
+    freebsd-update.conf \
+                size=2876 md5digest=6bdf2461b7e5097fa2a386b41aa4131d
+    ftpusers    size=219 md5digest=43902fa6ea4039f9c65fe9e98835f756
+    gettytab    size=6108 md5digest=00cfa643f0dff66771fcc4f7f08ac3ca
+    group       size=390 md5digest=f4b286d0748081a9714009ec30332108
+    hosts       size=1031 md5digest=7c8ff91c0a60977eee89680facc80b90
+    hosts.allow size=3290 md5digest=7cbb962dba27e29fecee7b9109564cf7
+    hosts.equiv size=53 md5digest=3af3b453ed046d97dea33baaf169fe9f
+    hosts.lpd   size=43 md5digest=65c7752d16a9bbd230122729a918263e
+    inetd.conf  size=5036 md5digest=4eaa152226a28eeb14cb74e5206abbcd
+    libalias.conf \
+                size=170 md5digest=07a628b94245dbfd57c1086fbb310edb
+    libmap.conf size=47 md5digest=7c92b7eb08fd94829809bb27fa2bfc9e
+    libmap32.conf \
+                size=48 md5digest=a4be078ca80284d417c6d94ab8a74442
+    locate.rc   size=868 md5digest=a6d70aabc5c261b7e5ebccde6bf3f4da
+    login.access \
+                size=1785 md5digest=3030893f140f7f1eba9653314ba5b7fe
+    login.conf  size=6700 md5digest=3c857db730669a77a7647111775a4335
+    mac.conf    size=507 md5digest=62016a9d43e0749652bc486d2402f0af
+    mail.rc     size=106 md5digest=b72ec094ae65e7439f189f251e1ce914
+    make.conf   size=201 md5digest=1d40919645074a7636d8f8fa044133a0
+    master.passwd \
+                size=1587 md5digest=ea69dce4a278d5632cef1eabc4f8185b
+    motd        size=890 md5digest=b38d686cc2299afb691a1cc6f15e3df1
+    netconfig   size=729 md5digest=7438f1df41a2f3e61bb51d4fbfd5e455
+    netstart    size=2331 md5digest=79dd1aedbefeb554e2d0b36ae3ef5d81
+    network.subr \
+                size=37246 md5digest=08422512da61f901f11c37aae87147ab
+    networks    size=310 md5digest=9acc227d4dc089acd066ddd18f0e497e
+    newsyslog.conf \
+                size=2000 md5digest=8323229c1696db3577b77d252e92dab0
+    nscd.conf   size=231 md5digest=5e205f57e079485dcb1b03b761807a33
+    nsmb.conf   size=1642 md5digest=3b05c8f805fc565599edef3123769065
+    nsswitch.conf \
+                size=260 md5digest=51c01b2cfb3a0851bdc18abad12bc935
+    ntp.conf    size=2656 md5digest=6aa485b69b2aac6d3596bf5d6b431314
+    opieaccess  size=377 md5digest=eb03e589c292ec175f943f39320cf233
+    pccard_ether \
+                size=2327 md5digest=af4841fc396132a54d9aa936bacda66f
+    pf.os       size=28735 md5digest=ea91e872b5030f8bed74a852ae843987
+    phones      size=183 md5digest=a5a95b096a02083337e224334b46a440
+    portsnap.conf \
+                size=1422 md5digest=05cc0ff64dac56ce3ffcee06f03c82f4
+    printcap    size=1999 md5digest=2815107e0e58fe7e93aac9482305a81d
+    profile     size=871 md5digest=3e69661594eb88ef233e3b9b9ebcd432
+    protocols   size=6393 md5digest=eb4a67c41cc1be4693f821c5df768915
+    rc          size=5093 md5digest=33b2272cb5b6468852e8ab7fe20bc7d1
+    rc.bsdextended \
+                size=4543 md5digest=694c8629aba57c26ec300ac79c726b55
+    rc.firewall size=19079 md5digest=8f888654df14e5432b5e39f6cb7a8350
+    rc.initdiskless \
+                size=12792 md5digest=4f312d53278f4a67bab576c35ad24fee
+    rc.resume   size=2390 md5digest=d589043f014b018deea0915c07ae154d
+    rc.sendmail size=5724 md5digest=1284c9621a39e7005f08eaee13abe30d
+    rc.shutdown size=3378 md5digest=0e6ec8edf1612bf1ad7c30e6b6ee4dcb
+    rc.subr     size=47675 md5digest=12b079b6f14e60b5784560ff7514333d
+    rc.suspend  size=2267 md5digest=e63e359b26599d237d510632b29b7d3d
+    regdomain.xml \
+                size=53654 md5digest=d47dec9923892e1e5ef89a98dd6da820
+    remote      size=2639 md5digest=308eabe8bd446cad1a70f8dc46e40754
+    rmt         type=link
+    rpc         size=1620 md5digest=b9de6a44b071032c7840a71d17d6e247
+    services    size=86835 md5digest=5c509eb3c95127c7b76daee8d261ccb8
+    shells      size=165 md5digest=719dfb3351ee151835e7d072539bb66b
+    snmpd.config \
+                size=8596 md5digest=9a1e9ec268cbb75e0d893df4ecd6e0ba
+    sysctl.conf size=1310 md5digest=698122629fa3e7793f67cdfaec587f5b
+    syslog.conf size=1425 md5digest=4b04665452de309666e18a28071d46eb
+    termcap     type=link
+    termcap.small \
+                size=12233 md5digest=9f58c4ba4d13f528df1c02dedc81d4d5
+    ttys        size=2021 md5digest=b4ba1b408a899da75d8415477fda5dbd
+    unbound     type=link
+
+# ./etc/autofs
+autofs          type=dir
+    include_ldap \
+                size=1168 md5digest=0c49d484e317b154655b56e17ed5b985
+    special_hosts \
+                size=301 md5digest=42fad0fedf905745fbf0ceec2d659c9b
+    special_media \
+                size=2294 md5digest=d5a55583fb3811deaecbf7321fc06537
+    special_noauto \
+                size=405 md5digest=d72f60984141f6866f02d1e160fc22e6
+    special_null \
+                size=32 md5digest=debf03fdda064d45db99ebfb86e5a188
+# ./etc/autofs
+..
+
+
+# ./etc/bluetooth
+bluetooth       type=dir
+    hcsecd.conf size=1277 md5digest=f2a5ca0ffabcd2f10229d1d2842df83b
+    hosts       size=245 md5digest=fdc199018339e37a0e23625546f4bcc7
+    protocols   size=1046 md5digest=336055082af321bdc323f66a5e160a9e
+# ./etc/bluetooth
+..
+
+
+# ./etc/defaults
+defaults        type=dir
+    bluetooth.device.conf \
+                size=3924 md5digest=aeb0185b9e8a612ec2c636c27ab36ed5
+    devfs.rules size=2376 md5digest=cd5ec79390a45b05cd568f1c223d6ee9
+    periodic.conf \
+                size=11809 md5digest=f8a8aa6cb7c31e1cd30ca4de912f7044
+    rc.conf     size=37236 md5digest=92d2f906bcafac7a27244822148db7b5
+# ./etc/defaults
+..
+
+
+# ./etc/devd
+devd            type=dir
+    asus.conf   size=1960 md5digest=3fab19520668156176f62be9e0af21c1
+    hyperv.conf size=356 md5digest=f636ddf3a4f11c3fe645e0aa31a95f8f
+    uath.conf   size=3083 md5digest=88ec33a1523b62b2e3f7488ff8ca7c48
+    usb.conf    size=117247 md5digest=da210fcd6a8a4dc8005fdfeb4c295e9a
+    zfs.conf    size=2131 md5digest=548a7eed2ad3192b8681717ab7d1e68d
+# ./etc/devd
+..
+
+
+# ./etc/gss
+gss             type=dir
+    mech        size=251 md5digest=4011a3db62346d7cb29a34ce4ef4410d
+    qop         size=101 md5digest=b8b524ea2ec0adcf420de2e57965cf92
+# ./etc/gss
+..
+
+
+# ./etc/mail
+mail            type=dir
+    Makefile    size=6745 md5digest=55b7ea51c9fa83f9c0d64b33ea944b39
+    README      size=2834 md5digest=52ca70baaeea8802cf900616b1c4c03d
+    access.sample \
+                size=558 md5digest=080850fcfe614b0b7418dab850211ab0
+    aliases     size=1624 md5digest=e2374f45a83640a249d9728580a83660
+    freebsd.cf  size=58919 md5digest=cb0e83aea90815c40a3e25ac28572c9d
+    freebsd.mc  size=4460 md5digest=b98d1a221d62af86bb5b0a65debffea7
+    freebsd.submit.cf \
+                size=41253 md5digest=ded367f6ddbc6eadbc93b44b297410b7
+    freebsd.submit.mc \
+                size=814 md5digest=32c2053fefcbed924b63e1600fc7c553
+    helpfile    size=5659 md5digest=575a931cd15ce799cb263fab1bfa8072
+    mailer.conf size=334 md5digest=dff378f37a71470e273e971eaf363077
+    mailertable.sample \
+                size=171 md5digest=17b30027a3ab7a923e2551a0d95532bf
+    sendmail.cf size=58919 md5digest=cb0e83aea90815c40a3e25ac28572c9d
+    submit.cf   size=41253 md5digest=ded367f6ddbc6eadbc93b44b297410b7
+    virtusertable.sample \
+                size=498 md5digest=56ad2acb615d5d60ccc2fac999da5ed9
+# ./etc/mail
+..
+
+
+# ./etc/mtree
+mtree           type=dir
+    BSD.include.dist \
+                size=5089 md5digest=05700079c71ab3eaba186dc93de895ce
+    BSD.root.dist \
+                size=1355 md5digest=2f70da164f8835d8108411ff1ea72bbf
+    BSD.sendmail.dist \
+                size=328 md5digest=260d310cadbb19b11ec68247a680eca5
+    BSD.usr.dist \
+                size=29068 md5digest=ca854d1a15268372c03cd13c4dd9d7bb
+    BSD.var.dist \
+                size=1906 md5digest=3afc9f98858fd2d07cd4de6e0957bb51
+# ./etc/mtree
+..
+
+
+# ./etc/pam.d
+pam.d           type=dir
+    README      size=2840 md5digest=7fb36973a12d941d8f58aa203eb46cac
+    atrun       size=257 md5digest=322f5001ca54a72cd3a22f8c63da45e6
+    cron        size=135 md5digest=2bfda75b46ef6a3ef4d3ca62c78b62d9
+    ftp         size=467 md5digest=cdc139b7b5511ac62363027aee2b7d8d
+    ftpd        size=467 md5digest=cdc139b7b5511ac62363027aee2b7d8d
+    imap        size=301 md5digest=2106feac297dfd45b28bb129dec37b64
+    login       size=308 md5digest=ae5890625c37de6f84c51441729e6437
+    other       size=606 md5digest=ebc0d18e92a4e3da83798362af27de04
+    passwd      size=252 md5digest=0b349b1915f712b3c25f0b3b11fe4104
+    pop3        size=301 md5digest=e48bda76d2714c9f773f830a36f1728f
+    rsh         size=265 md5digest=22a8bf68e48bc744dfa17a722038b8b2
+    sshd        size=684 md5digest=d2a8bf7749cd0fff7bb9114e923e48e3
+    su          size=322 md5digest=5f95b5f0119380f324b1f987d083f120
+    system      size=648 md5digest=af75f7f5cfba2c7cd068b05a15fe1fd0
+    telnetd     size=697 md5digest=61b98345065607a611942bbe85c11de4
+    xdm         size=466 md5digest=66cf81ec8e3c4b7a9c0fb7b6496ea167
+# ./etc/pam.d
+..
+
+
+# ./etc/periodic
+periodic        type=dir
+
+# ./etc/periodic/daily
+daily           type=dir
+    100.clean-disks \
+                size=1202 md5digest=e063a5771acd878238ea7669c8a46934
+    110.clean-tmps \
+                size=1492 md5digest=c358c684f84fec026d3085e95d936a60
+    120.clean-preserve \
+                size=1012 md5digest=8f542e5ee91ebf343db183b85c42a92e
+    130.clean-msgs \
+                size=619 md5digest=33e46b624660788334c53b8ec59f89ce
+    140.clean-rwho \
+                size=980 md5digest=10762e802690971da6f0cf36f2485171
+    150.clean-hoststat \
+                size=505 md5digest=6b45198dcf40136e4db65a1f9e610822
+    200.backup-passwd \
+                size=1664 md5digest=c55ddc9b84dd8f42975b553a353f1279
+    210.backup-aliases \
+                size=916 md5digest=fd1852a28e2b394a087e9947e7b90d51
+    300.calendar \
+                size=605 md5digest=c5925644c840d242c994beb1d3077f96
+    310.accounting \
+                size=1387 md5digest=69aa207e648c6f1569e8a8f116909adb
+    330.news    size=640 md5digest=df9454a592f2b3e4dd4b169bb2b4ba18
+    400.status-disks \
+                size=545 md5digest=a42121700fdb047fbeeb95aa88ab303f
+    401.status-graid \
+                size=492 md5digest=bedd05c28e2fd1990d7aa299edf0e019
+    404.status-zfs \
+                size=718 md5digest=7aad2c9abb304fa1d79a7e97a5bb7b90
+    406.status-gmirror \
+                size=501 md5digest=1326264c032891116cea69c6b72070ec
+    407.status-graid3 \
+                size=497 md5digest=41d7de0187e1e4f0cc641b34edeb796a
+    408.status-gstripe \
+                size=495 md5digest=248978ff7413c26113d641af207503e7
+    409.status-gconcat \
+                size=495 md5digest=d10eeff9b7437c24d14a5ae8307a77cf
+    420.status-network \
+                size=518 md5digest=be8faa02ef469182b2814995d7a3f2bc
+    430.status-rwho \
+                size=610 md5digest=f8ffce94f0d3ef02f0d294bfcf34917e
+    440.status-mailq \
+                size=1348 md5digest=ff4b8432b65aa99bf60ec927c04856b8
+    450.status-security \
+                size=694 md5digest=ebb9e12f43f0399207bc79ad18350bed
+    460.status-mail-rejects \
+                size=1901 md5digest=91543d977494209098c9924f2cfad28f
+    480.status-ntpd \
+                size=407 md5digest=15462304180f4d16434bf3cb36c31617
+    500.queuerun \
+                size=646 md5digest=9515fe191544326853d3a2e925212b8f
+    510.status-world-kernel \
+                size=747 md5digest=cce7cc58e733415592a9f1cec69daf54
+    800.scrub-zfs \
+                size=2394 md5digest=556dcf6f192d6fc6341cab376df51a7a
+    999.local   size=641 md5digest=60bd86f3b66b366f38e2fe3b072c3775
+# ./etc/periodic/daily
+..
+
+
+# ./etc/periodic/monthly
+monthly         type=dir
+    200.accounting \
+                size=858 md5digest=f7ce0d92e9579615bbe7514c17efeff7
+    450.status-security \
+                size=704 md5digest=9b970f6cabb4263da90c75ac7ba77754
+    999.local   size=533 md5digest=511e1cef696dc3e08cabb43a35c711b7
+# ./etc/periodic/monthly
+..
+
+
+# ./etc/periodic/security
+security        type=dir
+    100.chksetuid \
+                size=2037 md5digest=979961fb36956bf71b9fe0803963f10d
+    110.neggrpperm \
+                size=2057 md5digest=00be66e6484f4fa635e372478387075c
+    200.chkmounts \
+                size=2232 md5digest=ed668ea3416fac44f8394f1cb611ae6a
+    300.chkuid0 size=1878 md5digest=e8dc1fcb89c0e22f890c225eee7d53de
+    400.passwdless \
+                size=1871 md5digest=7679abca180d04979089407f6410f8bf
+    410.logincheck \
+                size=1875 md5digest=12ff93441a188e94a93d4cc20d2eb7b5
+    500.ipfwdenied \
+                size=1909 md5digest=5de221ae7e529c998b0b1a528a6c9857
+    510.ipfdenied \
+                size=1890 md5digest=b8daa5d4fa441c0c18ffe1c42b3631cb
+    520.pfdenied \
+                size=1949 md5digest=1881d10a4b539954867e746ff2dd7ae9
+    550.ipfwlimit \
+                size=2155 md5digest=37c5f89f1d10e1badccfc951a88889f4
+    610.ipf6denied \
+                size=1918 md5digest=4f9ea7b8782a63020fac5d219572d68e
+    700.kernelmsg \
+                size=1839 md5digest=9f8162f4aaa804d0c716be6703288f05
+    800.loginfail \
+                size=2255 md5digest=2eb281dba2a47df9d333184afe7916d3
+    900.tcpwrap size=2226 md5digest=3b2c2ebb1c58eab11f8f6116c4b73b64
+    security.functions \
+                size=2705 md5digest=09c01c7838668309499940dd93eb8430
+# ./etc/periodic/security
+..
+
+
+# ./etc/periodic/weekly
+weekly          type=dir
+    310.locate  size=548 md5digest=cbd426fc0dd8a459dd101fbc5464bee2
+    320.whatis  size=937 md5digest=401f17245086aa155be296a277bd2c11
+    330.catman  size=1082 md5digest=949d3b13c812fbdda1e905bc752258c3
+    340.noid    size=550 md5digest=152f6565ef012b7ecba2bc7a7139eed2
+    450.status-security \
+                size=699 md5digest=890d98b97ce9d5aa679fe4b21e3cb2c4
+    999.local   size=532 md5digest=67a61efd3257125bc7b72c489bdb0da0
+# ./etc/periodic/weekly
+..
+
+# ./etc/periodic
+..
+
+
+# ./etc/pkg
+pkg             type=dir
+    FreeBSD.conf \
+                size=438 md5digest=04e64814623818035b31ff3471b8dd6e
+# ./etc/pkg
+..
+
+
+# ./etc/ppp
+ppp             type=dir
+    ppp.conf    size=1082 md5digest=38a59211101dc501db6b74e090c7263a
+# ./etc/ppp
+..
+
+
+# ./etc/rc.d
+rc.d            type=dir
+    DAEMON      size=178 md5digest=e5033584051f93d280c3377330558c15
+    FILESYSTEMS size=353 md5digest=d6b699933cd659e9400aa95cdc06ae2b
+    LOGIN       size=342 md5digest=375bae93204aac616f881fab258db9ae
+    NETWORKING  size=321 md5digest=4692598960f38826ff809ccaec79c717
+    SERVERS     size=203 md5digest=5ca54a24e87b7d69c5d87ab84d710ad1
+    abi         size=1092 md5digest=308806239af8cb26b57a52379710e5de
+    accounting  size=1243 md5digest=f14cb8dc839c4f64a9e9a5e2177fcc56
+    addswap     size=319 md5digest=00c0e88f49e7dd4f5d3bf5b717e7a86e
+    adjkerntz   size=230 md5digest=ffd520d009d82c54f922b5cce0d94ac0
+    amd         size=773 md5digest=7e4580456983a618f569b06bf1ea958a
+    apm         size=562 md5digest=5bdbc2898ff0eb768989482842717481
+    apmd        size=568 md5digest=d65a5c4873cb8fc0c2c4f73c805c9f64
+    archdep     size=606 md5digest=13d8659386862352bed3d77483550a39
+    atm1        size=4096 md5digest=f80a9c594b1519adb7ab755c0b9593d2
+    atm2        size=2573 md5digest=ab8dc564f437213f340b70f9b99c838d
+    atm3        size=2351 md5digest=014e0c5a878b14a4f8ee69904bf580b2
+    auditd      size=521 md5digest=ed263d5dce6e4ced232528d2ec3d91e0
+    auditdistd  size=339 md5digest=82bfff492f1df96fff32b4f68e2f226a
+    automount   size=386 md5digest=5659fe644cc4ec90e29859e252a55827
+    automountd  size=272 md5digest=88ac6a4476a57291981bb94e2e99409f
+    autounmountd \
+                size=250 md5digest=d18758688879cdc7f8cccd62fac3fd8d
+    bgfsck      size=847 md5digest=c38589adf595f5c2e0350683f365c0d0
+    bluetooth   size=9329 md5digest=84fa4a203eeecfa6de1db6a47bfc7d03
+    bootparams  size=274 md5digest=e9133e67956df58a52bc07f0cf98560f
+    bridge      size=2253 md5digest=fb2ab49ade288a754b9707db22fe3ea6
+    bsnmpd      size=302 md5digest=29727cc2647dac0b1bdb142ecb06a4d1
+    bthidd      size=598 md5digest=c68d065fbfca46e8a78de787217e04e2
+    ccd         size=268 md5digest=41635229e5917a6f86c05a19fcfb112b
+    cleanvar    size=1178 md5digest=e2e63afcf4e2cb17afb46fde14380691
+    cleartmp    size=1820 md5digest=cf3e7842defed5864fae6b22507a20b5
+    cron        size=324 md5digest=589d4e6bc206ff57ba49ab64d8a7e123
+    ctld        size=330 md5digest=d6efc78abf40378213ab0785cc8c7031
+    ddb         size=444 md5digest=d996a0bcee2dda9f015ba7a13b3f6b15
+    defaultroute \
+                size=1436 md5digest=c501a80ebf9e4df8aeaedf32aa244613
+    devd        size=641 md5digest=4acbc0e5dde230764466ed9dbeeb4595
+    devfs       size=1368 md5digest=66ace2b9b2c7847fdfc056a447651138
+    dhclient    size=1202 md5digest=c50bad97943a5545dda7129119705523
+    dmesg       size=371 md5digest=a935cd0489fcaad57527e2da5656da8e
+    dumpon      size=1100 md5digest=b252864180b7add611a257a6d9538f1c
+    faith       size=1393 md5digest=938b6b42aabc882aab65e9f87d043b4f
+    fsck        size=1203 md5digest=19cb346801cca624520115b428dbcddc
+    ftp-proxy   size=2304 md5digest=a8e621cd7f5abfb84b3377b68f740043
+    ftpd        size=330 md5digest=53e0522c66c4b3aa3730f279f988e1e6
+    gbde        size=2118 md5digest=bee7f5fd525e79b6fbcf66ce616b149d
+    geli        size=2648 md5digest=8c3dc91ae98be5af85d4783337874fa9
+    geli2       size=1896 md5digest=59292fabf2e83a9d8d14e1c9f29e54a6
+    gptboot     size=2517 md5digest=b69031c3802b685404c467204668ca00
+    growfs      size=2754 md5digest=fecae6c7e43463c7f5a29ffef7ec6fa1
+    gssd        size=173 md5digest=986bd0905f11d1f7762e16ce2c576270
+    hastd       size=466 md5digest=e607cd1aaa589243d1af4ba020034e9d
+    hcsecd      size=402 md5digest=dd7c4013e54e2d5fdb3f94451d114be4
+    hostapd     size=576 md5digest=9d376469787481e6138a7f3e2251c705
+    hostid      size=2789 md5digest=0c858b478ddc78be5cdcff4f6ee65393
+    hostid_save size=404 md5digest=ca499c63f8a5b1d81bbf11ef07058bc4
+    hostname    size=2615 md5digest=e95b3dea50b5726293b6d62e8ce69d86
+    inetd       size=311 md5digest=c53b1f7382d15c4e4e77dbfa5c72915d
+    initrandom  size=1234 md5digest=70545449f0e6befb46e853de88d11cbd
+    ip6addrctl  size=2521 md5digest=f0229154cd0b1dacaf45d5b5a4965c09
+    ipfilter    size=2004 md5digest=301df5786beb8d4228c2f76d3f49dd29
+    ipfs        size=993 md5digest=7172c7db896b05c3f6288e3d38409a04
+    ipfw        size=2296 md5digest=0e0a1beb690ace7199f3deaaf12f89cd
+    ipmon       size=671 md5digest=136959cb586f86442d8b579253dbe2a6
+    ipnat       size=479 md5digest=cb95e5331dabf0488aea7c905fb4735f
+    ipropd_master \
+                size=703 md5digest=da9284f6385d0e003b1cd1d47cc76147
+    ipropd_slave \
+                size=509 md5digest=76902d1baebfc7c6e53b2ac52c2ed892
+    ipsec       size=1064 md5digest=7ebd4b83267dcc7ed2914044fcaff17c
+    ipxrouted   size=265 md5digest=d62486959f2899b38d3c397879bb0a29
+    iscsictl    size=293 md5digest=1cce88518e1dd1916bcd8047742a0f44
+    iscsid      size=279 md5digest=c9cfb6281a6323bfb96b1a1856fcb8a9
+    jail        size=13094 md5digest=c0119ca5c588dfc6137187755496826a
+    kadmind     size=457 md5digest=5c48582aa115a5ae298d79844d3ee591
+    kdc         size=426 md5digest=ca1af4e4c15a1b5f47a323fd1ee193fe
+    keyserv     size=361 md5digest=f32c10468222aef63dd01ef8361bae0a
+    kfd         size=264 md5digest=b9757b20eb1c3640ad16dd38579475ff
+    kld         size=1672 md5digest=da9d195d1bf4d4fabe4e458f2a805b3a
+    kldxref     size=602 md5digest=f3d441b5930b0cd0c12446c5b5c0f18a
+    kpasswdd    size=462 md5digest=4a3d42e58997e0332dc72bcd6352f844
+    ldconfig    size=1804 md5digest=367f64d00933c09be3f22907df4b5fc6
+    local       size=477 md5digest=707fadf9e320a781569ab8357c2e129d
+    local_unbound \
+                size=2070 md5digest=8e32b04b560500a3d015ab8f53a10a1d
+    localpkg    size=1342 md5digest=36a06d3a266c268a0cc8275887f08feb
+    lockd       size=594 md5digest=f939fb1555693cefdb934c43505813f9
+    lpd         size=381 md5digest=f29037dfa3966bcefe5b76705365beec
+    mdconfig    size=4990 md5digest=859c1284981b75ede88064162f4b17a6
+    mdconfig2   size=5895 md5digest=3acabd34eb14b2408530e692d038c96a
+    mixer       size=2410 md5digest=114688543bd1693b76946db22c214786
+    motd        size=953 md5digest=b23ed70de7e0dc77b0cda27152f9109a
+    mountcritlocal \
+                size=983 md5digest=731f42349c3f1f7dd37c4bc684348b34
+    mountcritremote \
+                size=1529 md5digest=a9fafeae0bf3ba6dc43afedca64ca371
+    mountd      size=1046 md5digest=e586323754f275bac4d871f73338c9f1
+    mountlate   size=663 md5digest=c7acd5b811c195fb6fab39302e90304d
+    moused      size=1621 md5digest=c671cc9bfe4d03321271dd01a1a7c0c6
+    mroute6d    size=243 md5digest=c664ebb731cbbc80d196a9f6e2239183
+    mrouted     size=322 md5digest=0358250aeba7ade9589196c6ff0daf3e
+    msgs        size=229 md5digest=37d3ed53e58eee74465fa7481d13e09e
+    natd        size=716 md5digest=aa77ef8505e6677eaff67351448c6177
+    netif       size=5562 md5digest=24ed49cc8cc1124553150c429942c60b
+    netoptions  size=2741 md5digest=af4bcd51b2c5e4c61f6b0d5be0a28c32
+    netwait     size=2143 md5digest=b75138ab8c6fe12c83cbfee6720e5a7b
+    newsyslog   size=435 md5digest=99886592e717787e9e8378a6077c51d7
+    nfscbd      size=243 md5digest=c954b42b90c27fcd668ce8d6eb24d568
+    nfsclient   size=1033 md5digest=69cc134580239dd88c78f5e180eaf77c
+    nfsd        size=1308 md5digest=fd6dab913125846823f8133d9e2d3818
+    nfsuserd    size=240 md5digest=8146b650a88860dea098d8249869fe68
+    nisdomain   size=1775 md5digest=68a8d543396b0cc99c40accd9c8936b4
+    nscd        size=1026 md5digest=4a6267c5e6a9061bc6f447089d679dc5
+    nsswitch    size=2540 md5digest=98f59e4c3c96d88db4257712ec379841
+    ntpd        size=1214 md5digest=eeba426f9c58773ae77f9082cbd74162
+    ntpdate     size=659 md5digest=f59ca82f6ac9a5f98f76c9671dd347bb
+    othermta    size=292 md5digest=1b4d26a9045d0c07e73e346414311553
+    pf          size=1287 md5digest=8a9ee6491353dad23f1528638c774311
+    pflog       size=2267 md5digest=dbc491f3e3c363effc001ada6e558155
+    pfsync      size=735 md5digest=c1775521776b726e82769f86d781d213
+    postrandom  size=760 md5digest=b5f33b7316b40f536c1d35759b437c80
+    power_profile \
+                size=2050 md5digest=2b80c60ff6d4f3ff749f8f5a8beed959
+    powerd      size=374 md5digest=5d6ce7acaef518d163f31b643d8b8c1a
+    ppp         size=2300 md5digest=8bca6e2f0380b0860cc72daff8ce7b0f
+    pppoed      size=532 md5digest=8c5eb80f8c4087f42cdb64bc01caacb4
+    pwcheck     size=389 md5digest=be1095a0a82c9655cba548aa3579b32f
+    quota       size=545 md5digest=ad599e3708216323bd640ef7b29d230a
+    random      size=1770 md5digest=e66ed5af59075c0a8244cba3c189f418
+    rarpd       size=309 md5digest=180f3e0c837e26ffd3d8e13217846e89
+    rctl        size=406 md5digest=b15828d0da71da1c77d5e6ef63c4c39e
+    resolv      size=1927 md5digest=df57d367db1aff7ba672308166d9abbd
+    rfcomm_pppd_server \
+                size=2341 md5digest=d776e48ee9e4c2bfd227c33b6e4ba37e
+    root        size=684 md5digest=859bcfd02d29232da89f82fa05cb506d
+    route6d     size=338 md5digest=0ddb8e88ed3b0e374977ed1dbffa9458
+    routed      size=372 md5digest=30145d7e8f4274b8ef76ab7d0ea49b55
+    routing     size=7761 md5digest=0a78b21c9203171e6d55f59f36d17821
+    rpcbind     size=275 md5digest=6c4ee8729631e572534f5485c2685876
+    rtadvd      size=1618 md5digest=8209dde31d1bb6e99917577ca198aebd
+    rtsold      size=392 md5digest=88f62e6edffaee42807f66e098f9b0db
+    rwho        size=219 md5digest=9759088c26adc1512e0ee1f943fc9e53
+    savecore    size=1229 md5digest=a44432099ae8b99062a0b1e3515ffacd
+    sdpd        size=413 md5digest=c1e118ed28b66919c9528d6cbd8222b9
+    securelevel size=495 md5digest=38ebd34d4d517c27e0d61d0419a2a92b
+    sendmail    size=6343 md5digest=1cbfc8cd7228bdbea18ce7f6bdcc17e8
+    serial      size=5104 md5digest=b4b2ec1f7f46f939f6ae2c05f4415e37
+    sppp        size=768 md5digest=8bc61e7e4dab354ce0470a67e86c3692
+    sshd        size=1511 md5digest=9e0dd92708bb51a9b870571575bb3b3a
+    statd       size=550 md5digest=bc6cf12320a85f42230fb84bdadc74ee
+    static_arp  size=2161 md5digest=175784523b969669ed5487c1e46abb6a
+    static_ndp  size=2161 md5digest=22858e96667cf62e3db64c21c5b6c061
+    stf         size=1844 md5digest=a29d40e6fb84a9dcfbd7218893b001cb
+    swap        size=200 md5digest=b1c707773185ac800a3caf6bcc004079
+    swaplate    size=228 md5digest=7a543692f46e47097f944b32485d2297
+    syscons     size=7935 md5digest=a94150187660e72db231186c714be381
+    sysctl      size=515 md5digest=0acb5e9ba80b8ad9b99e5b92593dcb04
+    syslogd     size=1494 md5digest=c3dd88e0b5fd28d713b8487f8ae7a49a
+    timed       size=227 md5digest=2fba6ec870a3c955bda9997adbd77cc8
+    tmp         size=2120 md5digest=97a79f8e81f65d148247c4dcabe4106a
+    ubthidhci   size=762 md5digest=9b2d0e5c4a294e0ebaf0e8601fbccdec
+    ugidfw      size=620 md5digest=2cb7bf9c79a4c990122e853d7a4078c7
+    utx         size=223 md5digest=6b16be654075073f973cb7083447310e
+    var         size=3202 md5digest=5d4786a420983dfe17a5528d74ee1cf1
+    virecover   size=1549 md5digest=cbb0f9e94c845d9935277c2472d97ab5
+    watchdogd   size=1616 md5digest=da334085404af22348d8d34e23edb8e8
+    wpa_supplicant \
+                size=758 md5digest=23b8c5465aa2684a1e1cf9295af0b0b6
+    ypbind      size=471 md5digest=5f9c084de27f587a6e71c0ea0585d5be
+    yppasswdd   size=543 md5digest=afe65f088b4f4a4436377fb2f62cbf4d
+    ypserv      size=557 md5digest=158a204edb2b6dbd5e3dd48d21afb38e
+    ypset       size=491 md5digest=cd0d21a28791d56dbc29a4856b18419f
+    ypupdated   size=496 md5digest=44f9d507619828ab9f2afb40da4e754e
+    ypxfrd      size=509 md5digest=0031133ad8eec11695b60af9047f80ce
+    zfs         size=819 md5digest=952e5184172de7c232d6879ed34e6184
+    zvol        size=709 md5digest=46a0a92bbba9738be92637e304e2947c
+# ./etc/rc.d
+..
+
+
+# ./etc/security
+security        type=dir
+    audit_class size=623 md5digest=caebfae028f7d8f8ac7b0b0714c59011
+    audit_control \
+                size=184 md5digest=3dc8cb729c4e991747b0e9b723686499
+    audit_event size=26356 md5digest=f797c032e069bd07f5b34924bfb8ed9d
+    audit_user  size=89 md5digest=1933113b21aff0e6b49b37b842c600c6
+    audit_warn  size=135 md5digest=85df8935e58033009ac428dd33737427
+# ./etc/security
+..
+
+
+# ./etc/ssh
+ssh             type=dir
+    moduli      size=271388 md5digest=10af773e46981c430d969167ebcfa578
+    ssh_config  size=1647 md5digest=4d6c056824464d2bb48cbf5fba31a75b
+    sshd_config size=3961 md5digest=61e8b3996445d3bf477642ce66fdd795
+# ./etc/ssh
+..
+
+
+# ./etc/ssl
+ssl             type=dir
+    openssl.cnf size=10847 md5digest=db7efb320e377ec2a6014aadc73c2aae
+# ./etc/ssl
+..
+
+# ./etc
+..
+
+
+# ./root
+root            type=dir
+    .cshrc      size=898 md5digest=6ce16bbe8b659552a807e6db8d0454db
+    .k5login    size=80 md5digest=fd63ad449631e0a26c19577d05060e2a
+    .login      size=229 md5digest=4370ed79c5698e6832938604d33e6206
+    .profile    size=188 md5digest=4cde7c2476c25183a052c7ab0d9b4352
+# ./root
+..
+
+
+# ./var
+var             type=dir
+
+# ./var/crash
+crash           type=dir
+    minfree     size=5 md5digest=3268adbb54b3bc17d9c61473cc418403
+# ./var/crash
+..
+
+# ./var
+..
+

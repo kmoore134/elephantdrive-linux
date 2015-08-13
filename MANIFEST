@@ -1,0 +1,4 @@
+NAME:    BASE-10.2-R
+DESC:    FreeBSD 10.2-RELEASE base repo
+VERSION: 10.2
+ARCH:    amd64
