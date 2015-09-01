@@ -1,0 +1,42 @@
+#!/bin/sh
+# $FreeBSD$
+
+# PROVIDE: elephantdrive
+# REQUIRE: LOGIN cleanvar
+# KEYWORD: shutdown
+
+#
+# Add the following lines to /etc/rc.conf to enable appcafe:
+# elephantdrive_enable (bool):		Set to "NO" by default.
+#				Set it to "YES" to enable appcafe
+
+. /etc/rc.subr
+
+name="elephantdrive"
+rcvar=elephantdrive_enable
+
+command="/compat/linux/usr/sbin/elephantdrivedaemon"
+start_cmd="elephantdrive_start"
+stop_cmd="elephantdrive_stop"
+
+[ -z "$elephantdrive_enable" ]		&& elephantdrive_enable="NO"
+
+load_rc_config $name
+
+elephantdrive_start()
+{
+  if [ -e /etc/elephantdrive/elephantdrive.register ] ; then
+    daemon -p /var/run/elephantdrive.pid $command
+  else
+    daemon -p /var/run/elephantdrive.pid $command -r
+  fi
+}
+
+elephantdrive_stop()
+{
+  if [ -e "/var/run/elephantdrive.pid" ] ; then
+    pkill -F /var/run/elephantdrive.pid
+  fi
+}
+
+run_rc_command "$1"

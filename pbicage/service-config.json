@@ -1,0 +1,16 @@
+[
+    {
+        "type": "STRINGBOX",
+        "desc": "Username",
+        "longdesc": "Your username for your ElephantDrive account",
+        "key": "Username",
+        "default": ""
+    },
+    {
+        "type": "PASSWORDBOX",
+        "desc": "Password",
+        "longdesc": "ElephantDrive Password",
+        "key": "Password",
+        "default": ""
+    }
+]
