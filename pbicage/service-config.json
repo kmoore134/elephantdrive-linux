@@ -1,16 +1,18 @@
 [
     {
         "type": "STRINGBOX",
-        "desc": "Username",
+        "desc": "Username / email",
         "longdesc": "Your username for your ElephantDrive account",
         "key": "Username",
-        "default": ""
+        "default": "",
+	"maxlen": "50"
     },
     {
         "type": "PASSWORDBOX",
         "desc": "Password",
         "longdesc": "ElephantDrive Password",
         "key": "Password",
-        "default": ""
+        "default": "",
+	"maxlen": "50"
     }
 ]
