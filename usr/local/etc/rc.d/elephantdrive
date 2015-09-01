@@ -25,7 +25,12 @@ load_rc_config $name
 
 elephantdrive_start()
 {
-  daemon -p /var/run/elephantdrive.pid $command
+  if [ -e "/etc/rc.d/elephantdrive/elephantdrive.register" ] ; then
+    rm /etc/rc.d/elephantdrive/elephantdrive.register
+    daemon -p /var/run/elephantdrive.pid $command -r
+  else
+    daemon -p /var/run/elephantdrive.pid $command
+  fi
 }
 
 elephantdrive_stop()

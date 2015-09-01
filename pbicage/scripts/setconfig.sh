@@ -24,9 +24,3 @@ elif [ "$KEY" = "Password" ] ; then
   mv ${CFGFILE}.new ${CFGFILE}
   echo "userpassword $VALUE" >> ${CFGFILE}
 fi
-
-# If we are done changing values
-if [ "$ATEND" = "YES" ] ; then
-  # Restart elephantdrive
-  service elephantdrive restart
-fi
